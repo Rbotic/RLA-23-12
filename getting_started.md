@@ -55,7 +55,7 @@ Using the table below, the CAN bus message would be structured as follows:
 ## CAN Command Messages
 
 - **RTR bit:** When a command requires a return reply, the CAN bus RTR (Remote Transmission Request) bit must be set in the CAN frame.
-- **Execution result:** 0 indicates success, -1 indicates failure
+- **Return Data - Execution result:** 0 indicates success, -1 indicates failure
 
 | CMD ID | CMD Name                   | Description                                     | Sent Node ID            | Sent CMD ID | Sent CAN DLC | Sent Data                         | Return Node ID | Return CMD ID | Return CAN DLC | Return Data                                      |
 |-------|---------------------------|-------------------------------------------------|-------------------------|-------------|--------------|----------------------------------|----------------|---------------|----------------|--------------------------------------------------|
