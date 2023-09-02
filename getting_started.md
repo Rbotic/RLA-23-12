@@ -1,3 +1,4 @@
+The following documentation is for the RLA-23-12 Actuator. Available for purchase [here](https://rboticlabs.com/products/RLA-23-12-Actuator-v2-p554194928).
 # CAN Frame Format
 
 Communication between the DGM drive node and a Master node employs CAN bus standard data frames. This is based on the COTS DGM controller.
