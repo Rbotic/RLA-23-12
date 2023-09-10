@@ -33,3 +33,6 @@ If you intend to use the actuator without the Cando Pro module, you will need to
 
 ## CAD
 CAD can be found [here](https://github.com/Rbotic/RLA-23-12/blob/main/CAD/Actuator%20T23R12%20v2%20External%20CAD.step) for mechanical integration.
+
+# Contact
+Should you have any inquiries or require further assistance, please don't hesitate to reach out. rboticlabs@gmail.com
