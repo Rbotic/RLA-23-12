@@ -21,7 +21,7 @@ Follow these 3 steps to get your RLA-23-12 Actuator up and running as fast as po
 
    - Play around with it! Experiment with live plotting of variables such as position or motor phase current.
 
-## **Important Notes**
+### **Important Notes**
 
 - **Power Supply Considerations:** Ensure that your power supply can handle sourcing power (when accelerating) and sinking power (when decelerating). This is especially critical when rapidly moving substantial masses. A Li-ion battery is recommended if you have doubts about power supply.
 
