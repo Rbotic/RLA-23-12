@@ -26,21 +26,11 @@ The Data Length Code (DLC) field is 4 bits long and indicates the number of data
 
 The CAN DATA field contains data specific to the command. The content of this field varies depending on the command being transmitted. Three data types can be used for the data payload:
 
-- int32: A 4-byte signed integer in little-endian format.
-- uint32: A 4-byte unsigned integer in little-endian format.
-- float32: A 4-byte floating-point number in little-endian format.
+- `int32`: A signed 4-byte integer in little-endian format.
+- `uint32`: An unsigned 4-byte integer in little-endian format.
+- `float32`: A 4-byte floating-point number in little-endian format.
 
 An external Master node initiates communication and receives responses from the DGM drive (slave). Certain commands are also initiated by the DGM drive itself and sent to the user controller. These proactive commands are used to report internal errors or status changes and are sent using the `CAN_CMD_STATUSWORD_REPORT` command.
-
-## Data Types Sent/Received
-
-There are three data types that can be sent or received within the CAN DATA field:
-
-- `int32`: A signed 4-byte integer stored in little-endian format.
-- `uint32`: An unsigned 4-byte integer stored in little-endian format.
-- `float32`: A 4-byte floating-point number stored in little-endian format.
-
-Please note that the endianness (byte order) of the data is specified as little-endian.
 
 ## Example
 
