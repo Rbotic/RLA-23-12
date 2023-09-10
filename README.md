@@ -11,7 +11,6 @@ Follow these 3 steps to get your RLA-23-12 Actuator up and running as fast as po
 
 2. **Software Setup:**
    - Download the [DGM Tool debugging software](https://github.com/Rbotic/RLA-23-12/blob/main/dgm%20tool/dgm_tool-en-x64-0.3.exe). For Windows 8 and above.
-   <img src="https://github.com/Rbotic/RLA-23-12/blob/main/media/dgm%20tool.png" alt="DGM Tool" width="400">
 
    - Change the Baudrate to 1000K in the DGM Tool software and click connect.
    ![Baudrate Configuration](https://github.com/Rbotic/RLA-23-12/blob/main/media/baudrate%20and%20connect.png)
