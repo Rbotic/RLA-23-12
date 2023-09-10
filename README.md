@@ -6,20 +6,20 @@ Its motor controller is a COTS [dgm controller](https://github.com/codenocold/dg
 # Quick Start Guide
 Follow these 3 steps to get your RLA-23-12 Actuator up and running as fast as possible!
 1. **Hardware setup:**
-   - Connect RLA-23-12's XT30 connector to a [Cando Pro Isolated CAN bus module](). These connections handle the CAN bus high and low signals.
+   - Connect RLA-23-12's XT30 connector to a [Cando Pro Isolated CAN bus ](https://rboticlabs.com/products/Cando-Pro-Isolated-USB-to-CAN-p586100123) module. These connections handle the CAN bus high and low signals.
    - Connect RLA-23-12's XT60 connector to a power supply capable of delivering 12-50V and >30W. Please ensure proper polarity. The power required will largely depend on mechanical loading.
 
 2. **Software Setup:**
-   - Download the [DGM Tool debugging software](<dgm tool/dgm_tool-en-x64-0.3.exe>). For Windows 8 and above.
-    <img src="media/dgm tool.png" alt="DGM Tool" width="400">
+   - Download the [DGM Tool debugging software](<./dgm tool/dgm_tool-en-x64-0.3.exe>). For Windows 8 and above.
+    <img src="./media/dgm tool.png" alt="DGM Tool" width="400">
 
    - Change the Baudrate to 1000K in the DGM Tool software and click connect.
-   ![Baudrate Configuration](<media/baudrate and connect.png>)
+   ![Baudrate Configuration](<./media/baudrate and connect.png>)
 
 4. **Motor Control:**
    - Click on "Enable Motor" and send a position command in turns. The motor will rotate to the requested position. The actuator's output will rotate by $ (turns / 21.302) $. The exact reduction ratio is $ (60/13)^2 ≈ 21.3018 $
 
-   ![Motor Control](<media/enable and pos motor.png>)
+   ![Motor Control](<./media/enable and pos motor.png>)
 
    - Play around with it! Experiment with live plotting of variables such as position or motor phase current.
 
