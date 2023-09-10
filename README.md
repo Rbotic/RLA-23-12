@@ -15,7 +15,7 @@ Follow these 3 steps to get your RLA-23-12 Actuator up and running as fast as po
 
    - Change the Baudrate to 1000K in the DGM Tool software and click connect.
    ![Baudrate Configuration](/RLA-23-12/media/baudrate%20and%20connect.png)
-   ![Alt text](<media/dgm tool.png>)
+   ![Alt text](<RLA-23-12/media/dgm tool.png>)
 
 4. **Motor Control:**
    - Click on "Enable Motor" and send a position command in turns. The motor will rotate to the requested position. The actuator's output will rotate by $ (turns / 21.302) $. The exact reduction ratio is $ (60/13)^2 ≈ 21.3018 $
