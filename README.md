@@ -34,5 +34,11 @@ If you intend to use the actuator without the Cando Pro module, you will need to
 ## CAD
 CAD can be found [here](https://github.com/Rbotic/RLA-23-12/blob/main/CAD/Actuator%20T23R12%20v2%20External%20CAD.step) for mechanical integration.
 
+## Internal control loop
+Below is the control loop running internally in the motor controller. In depth understanding of this control loop is not required for most applications. It is useful to understand for determining the expected torque output for a given actuator state.
+![Alt text](https://github.com/Rbotic/RLA-23-12/blob/main/media/control%20loop.png)
+
+Source: [link](https://github.com/codenocold/dgm/blob/main/dgm_v2_0/dgm%E7%94%B5%E6%9C%BA%E9%A9%B1%E5%8A%A8%E5%99%A8%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C_%E7%89%88%E6%9C%ACC.pdf)
+
 # Contact
 Should you have any inquiries or require further assistance, please don't hesitate to reach out. rboticlabs@gmail.com
