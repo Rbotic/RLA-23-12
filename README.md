@@ -10,17 +10,16 @@ Follow these 3 steps to get your RLA-23-12 Actuator up and running as fast as po
    - Connect RLA-23-12's XT60 connector to a power supply capable of delivering 12-50V and >30W. Please ensure proper polarity. The power required will largely depend on mechanical loading.
 
 2. **Software Setup:**
-   - Download the [DGM Tool debugging software](./dgm%20tool/dgm_tool-en-x64-0.3.exe). For Windows 8 and above.
-    <img src="./media/dgm tool.png" alt="DGM Tool" width="400">
+   - Download the [DGM Tool debugging software](https://github.com/Rbotic/RLA-23-12/blob/main/dgm%20tool/dgm_tool-en-x64-0.3.exe). For Windows 8 and above.
+    <img src="https://github.com/Rbotic/RLA-23-12/blob/main/media/dgm%20tool.png" alt="DGM Tool" width="400">
 
    - Change the Baudrate to 1000K in the DGM Tool software and click connect.
-   ![Baudrate Configuration](/RLA-23-12/media/baudrate%20and%20connect.png)
-   ![Alt text](<RLA-23-12/media/dgm tool.png>)
+   ![Baudrate Configuration](https://github.com/Rbotic/RLA-23-12/blob/main/media/baudrate%20and%20connect.png)
 
 4. **Motor Control:**
    - Click on "Enable Motor" and send a position command in turns. The motor will rotate to the requested position. The actuator's output will rotate by $ (turns / 21.302) $. The exact reduction ratio is $ (60/13)^2 ≈ 21.3018 $
 
-   ![Motor Control](/RLA-23-12/media/enable%20and%20pos%20motor.png)
+   ![Motor Control](https://github.com/Rbotic/RLA-23-12/blob/main/media/enable%20and%20pos%20motor.png)
 
    - Play around with it! Experiment with live plotting of variables such as position or motor phase current.
 
@@ -35,4 +34,4 @@ Follow these 3 steps to get your RLA-23-12 Actuator up and running as fast as po
 If you intend to use the actuator without the Cando Pro module, you will need to generate the CAN bus messages using an external module of your choice. Refer to the [CAN bus documentation](CAN_BUS.md) for guidance.
 
 ## CAD
-CAD can be found [here](/RLA-23-12/CAD/Actuator%20T23R12%20v2%20External%20CAD.step) for mechanical integration.
+CAD can be found [here](https://github.com/Rbotic/RLA-23-12/blob/main/CAD/Actuator%20T23R12%20v2%20External%20CAD.step) for mechanical integration.
