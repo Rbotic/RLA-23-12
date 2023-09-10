@@ -16,7 +16,7 @@ Follow these 3 steps to get your RLA-23-12 Actuator up and running as fast as po
    ![Baudrate Configuration](https://github.com/Rbotic/RLA-23-12/blob/main/media/baudrate%20and%20connect.png)
 
 4. **Motor Control:**
-   - Click on "Enable Motor" and send a position command in turns. The motor will rotate to the requested position. The actuator's output will rotate by $ (turns / 21.302) $. The exact reduction ratio is $ (60/13)^2 ≈ 21.3018 $
+   - Click on "Enable Motor" and send a position command in turns. The motor will rotate to the requested position. The actuator's output will rotate by `(turns / 21.302)`. The exact reduction ratio is `(60/13)^2 ≈ 21.3018`
    ![Motor Control](https://github.com/Rbotic/RLA-23-12/blob/main/media/enable%20and%20pos%20motor.png)
 
    - Play around with it! Experiment with live plotting of variables such as position or motor phase current.
@@ -25,7 +25,7 @@ Follow these 3 steps to get your RLA-23-12 Actuator up and running as fast as po
 
 - **Power Supply Considerations:** Ensure that your power supply can handle sourcing power (when accelerating) and sinking power (when decelerating). This is especially critical when rapidly moving substantial masses. A Li-ion battery is recommended if you have doubts about power supply.
 
- - RLA-23-12 uses a DGM motor controller with custom firmware enchancing usability and CAN bus performance. Refrain from reflashing with original firmware.
+ - RLA-23-12 uses a DGM motor controller with custom firmware enchancing usability and CAN bus performance. Avoid reflashing original firmware.
 
 # What's Next?
 ## CAN bus
