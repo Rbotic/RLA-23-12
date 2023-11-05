@@ -10,7 +10,7 @@ Follow these 3 steps to get your RLA-23-12 Actuator up and running as fast as po
    - Connect RLA-23-12's XT60 connector to a power supply capable of delivering 12-50V and >30W. Please ensure proper polarity. The power required will largely depend on mechanical loading.
 
 2. **Software Setup:**
-   - Download the [DGM Tool debugging software](https://github.com/Rbotic/RLA-23-12/blob/main/dgm%20tool/dgm_tool-en-x64-0.3.exe). For Windows 8 and above.
+   - Download the [DGM Tool debugging software](https://github.com/Rbotic/RLA-23-12/blob/main/dgm%20tool/dgm_tool-en-x64-0.3.exe). For Windows 8 and above. The Cando module is required to use the Dgm Tool debugging software.
 
    - Change the Baudrate to 1000K in the DGM Tool software and click connect.
    ![Baudrate Configuration](https://github.com/Rbotic/RLA-23-12/blob/main/media/baudrate%20and%20connect.png)
@@ -23,7 +23,7 @@ Follow these 3 steps to get your RLA-23-12 Actuator up and running as fast as po
 
 ### **Important Notes**
 
-- **Power Supply Considerations:** Ensure that your power supply can handle sourcing power (when accelerating) and sinking power (when decelerating). This is especially critical when rapidly moving substantial masses. A Li-ion battery is recommended if you have doubts about power supply.
+- **Power Supply Considerations:** Ensure that your power supply can handle sourcing power (when accelerating) and sinking power (when decelerating). This is especially critical when rapidly moving substantial masses. A Li-ion battery is recommended if you have doubts about power supply. By default, undervoltage/overvoltage protection will trip at 12/44v respectively. This can be changed through CAN bus using the Dgm Tool.
 
  - RLA-23-12 uses a DGM motor controller with custom firmware enchancing usability and CAN bus performance. Avoid reflashing original firmware.
 
